@@ -6,3 +6,4 @@
 ## [Лабораторна робота №5](src/main/lab5/README.md)
 ## [Лабораторна робота №6](src/main/lab6/README.md)
 ## [Лабораторна робота №7](src/main/lab7/README.md)
+## [Лабораторна робота №9](src/main/lab9/README.md)
