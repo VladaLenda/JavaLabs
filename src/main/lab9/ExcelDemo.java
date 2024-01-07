@@ -1,9 +1,9 @@
 package com.bondarenko.universityAssigment.lab9;
 
-import com.bondarenko.universityAssigment.lab9.entities.*;
-import com.bondarenko.universityAssigment.lab9.excelFormating.ExcelFileFormatter;
-import com.bondarenko.universityAssigment.lab9.excelFormating.ExcelSheetFormatter;
-import com.bondarenko.universityAssigment.lab9.fakeStoreAPI.PlatziFakeStoreAPI;
+import lab9.entities.*;
+import lab9.excelFormating.ExcelFileFormatter;
+import ExcelSheetFormatter;
+import FakeStoreAPI;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ExcelDemo {
-    private static PlatziFakeStoreAPI api = new PlatziFakeStoreAPI(100);
+    private static FakeStoreAPI api = new PFakeStoreAPI(100);
     private static ExcelFileFormatter excel = new ExcelFileFormatter();
 
     public static void main(String[] args) {
