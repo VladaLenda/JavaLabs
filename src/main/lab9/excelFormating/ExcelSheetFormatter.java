@@ -1,5 +1,3 @@
-package com.bondarenko.universityAssigment.lab9.excelFormating;
-
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.poi.ss.usermodel.Cell;
