@@ -1,5 +1,3 @@
-package com.bondarenko.universityAssigment.lab9;
-
 import lab9.entities.*;
 import lab9.excelFormating.ExcelFileFormatter;
 import ExcelSheetFormatter;
