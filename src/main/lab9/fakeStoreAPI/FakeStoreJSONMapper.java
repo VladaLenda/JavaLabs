@@ -1,6 +1,4 @@
-package com.bondarenko.universityAssigment.lab9.fakeStoreAPI;
-
-import com.bondarenko.universityAssigment.lab9.entities.*;
+import lab9.entities.*;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -8,7 +6,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlatziFakeStoreJSONMapper {
+public class FakeStoreJSONMapper {
     Gson gson = new Gson();
 
     private final static Type categoryListType = new TypeToken<ArrayList<Category>>(){}.getType();
