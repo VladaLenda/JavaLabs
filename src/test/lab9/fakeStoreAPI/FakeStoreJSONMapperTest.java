@@ -1,6 +1,4 @@
-package com.bondarenko.universityAssigment.lab9.fakeStoreAPI;
-
-import com.bondarenko.universityAssigment.lab9.entities.*;
+import lab9.entities.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -8,12 +6,12 @@ import java.util.Collections;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PlatziFakeStoreJSONMapperTest {
+class FakeStoreJSONMapperTest {
 
-    PlatziFakeStoreJSONMapper mapper;
+   FakeStoreJSONMapper mapper;
     @BeforeEach
     void setUp() {
-        mapper = new PlatziFakeStoreJSONMapper();
+        mapper = new FakeStoreJSONMapper();
     }
 
     @Test
@@ -66,13 +64,13 @@ class PlatziFakeStoreJSONMapperTest {
 
     @Test
     void MapUsers_MinimalValidJSON_ShouldReturnListOfUsers() {
-        User expected = new User(1, "test@test.com", "1111", "test", "tester", "test.jpg");
+        User expected = new User(10, "test@test.com", "0000", "test", "tester", "test.jpg");
         String json = """
                 [
                   {
-                    "id": 1,
+                    "id": 10,
                     "email": "test@test.com",
-                    "password": "1111",
+                    "password": "0000",
                     "name": "test",
                     "role": "tester",
                     "avatar": "test.jpg"
