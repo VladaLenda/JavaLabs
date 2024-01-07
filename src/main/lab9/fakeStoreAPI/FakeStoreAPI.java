@@ -1,6 +1,4 @@
-package com.bondarenko.universityAssigment.lab9.fakeStoreAPI;
-
-import com.bondarenko.universityAssigment.lab9.entities.*;
+import lab9.entities.*;
 import lombok.SneakyThrows;
 
 import java.net.URI;
@@ -9,10 +7,10 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.List;
 
-public class PlatziFakeStoreAPI {
+public class FakeStoreAPI {
     private final static String API_URL = "https://api.escuelajs.co/api/v1/";
     private final int defaultLimit;
-    private final PlatziFakeStoreJSONMapper mapper = new PlatziFakeStoreJSONMapper();
+    private final FakeStoreJSONMapper mapper = new FakeStoreJSONMapper();
 
     public PlatziFakeStoreAPI(int defaultLimit) {
         this.defaultLimit = defaultLimit;
